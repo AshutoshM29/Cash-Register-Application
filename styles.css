@@ -1,9 +1,45 @@
-*{
+@import url("https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&display=swap");
+
+
+* {
 
 }
+body {
+    font-family: 'Aref Ruqaa', serif;
+    text-align: center;
 
+}
 .container {
+
     display: flex;
+    padding: 2rem;
     flex-direction: column;
     width: 50vh;
 }
+
+#bill-amount {
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border: 2px solid;
+    border-radius: 1rem;
+}
+
+#cash-given {
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border: 2px solid;
+    border-radius: 1rem;
+}
+
+#check-button {
+    margin: auto;
+    width: 20vh;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.cap {
+    font-size: x-large;
+    margin-bottom: 2rem;
+}
+
