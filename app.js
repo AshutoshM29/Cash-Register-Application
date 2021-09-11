@@ -30,7 +30,7 @@ checkButton.addEventListener("click", function validateBillAndCashAmount() {
     if (billAmount.value > 0) {
         if (cashGiven.value >= billAmount.value) {
             var amountToBeReturned = cashGiven.value - billAmount.value;
-            calculateChange(amountToBeReturned > 0);
+            calculateChange(amountToBeReturned);
         } 
         else {
             showMessage("You have given less cash!");
