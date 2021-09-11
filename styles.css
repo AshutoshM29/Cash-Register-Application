@@ -1,14 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&display=swap");
 
 
-* {
-
+:root {
+    --first-color:#FF3701;
 }
+
+* {
+    margin: auto;
+}
+
 body {
     font-family: 'Aref Ruqaa', serif;
     text-align: center;
-
 }
+
+.heading {
+    background-image: linear-gradient(#FF3701, #FF6701);
+    padding: 1rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.description {
+    margin-bottom: 2rem;
+}
+
+
 .container {
 
     display: flex;
@@ -35,11 +52,48 @@ body {
     margin: auto;
     width: 20vh;
     padding: 1rem;
+    background-image: linear-gradient(#FF3701, #FF6701);
+    color: white;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+}
+
+#next-button {
+    margin: auto;
+    width: 20vh;
+    background-image: linear-gradient(#FF3701, #FF6701);
+    color: white;
+    padding: 0.5rem;
     border-radius: 2rem;
 }
 
 .cap {
     font-size: x-large;
+    margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
+.hidden {
+    display: none;
+}
+
+.change-table {
+    border: solid black;
+    font-size: large;
+    padding: 1rem;
+}
+
+.bottom {
+    margin-top: 2rem;
+    background-image: linear-gradient(#FF3701, #FF6701);
+    padding: 1rem;
+    color: white;
+}
+
+.abt {
+    font-size: x-large;
+}
+
+.with-love  {
+    font-size: x-large;
+}
