@@ -15,7 +15,7 @@ const availableNotes = [2000, 500, 100, 20, 10, 5, 1];
 
 nextButton.addEventListener("click", function showNext() {
     hideMessage();
-    if(Number(billAmount.value > 0)) {
+    if(Number(billAmount.value) > 0) {
         nextButton.style.display="none";
         cashGivenPart.style.display = "block";
         outputDiv.style.display ="block";
@@ -27,13 +27,16 @@ nextButton.addEventListener("click", function showNext() {
 
 checkButton.addEventListener("click", function validateBillAndCashAmount() {
     hideMessage();
-    if (billAmount.value > 0) {
-        if (cashGiven.value >= billAmount.value) {
+
+    var billAmtValue = Number(billAmount.value);
+    var cashGivValue = Number(cashGiven.value);
+    if (billAmtValue > 0) {
+        if (cashGivValue >= billAmtValue) {
             var amountToBeReturned = cashGiven.value - billAmount.value;
             calculateChange(amountToBeReturned);
         } 
         else {
-            showMessage("You have given less cash!");
+            showMessage("You have recived less cash than the bill !");
         }
 
     } else {
