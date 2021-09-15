@@ -56,6 +56,7 @@ body {
     color: white;
     border-radius: 2rem;
     margin-bottom: 1rem;
+    cursor: pointer;
 }
 
 #next-button {
@@ -65,6 +66,7 @@ body {
     color: white;
     padding: 0.5rem;
     border-radius: 2rem;
+    cursor: pointer;
 }
 
 .cap {
@@ -78,11 +80,22 @@ body {
 }
 
 .change-table {
-    width: 100%;
+    margin: auto;
     table-layout: fixed;
-    border: solid black;
+    border: solid black 2px;
+    border-radius: 1rem;
     font-size: large;
-    padding: 1rem;
+    padding: 0.5rem;
+}
+
+th {
+    border:solid #FF6701 2px;
+    padding: 0.5rem;
+}
+
+td {
+    border: solid #FF6701 1px;
+    padding: 0.2rem;
 }
 
 .bottom {
