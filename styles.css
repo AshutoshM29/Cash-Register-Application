@@ -78,6 +78,8 @@ body {
 }
 
 .change-table {
+    width: 100%;
+    table-layout: fixed;
     border: solid black;
     font-size: large;
     padding: 1rem;
