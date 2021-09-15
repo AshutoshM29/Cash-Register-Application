@@ -37,6 +37,7 @@ checkButton.addEventListener("click", function validateBillAndCashAmount() {
         } 
         else {
             showMessage("You have recived less cash than the bill !");
+            outputDiv.style.display ="none";
         }
 
     } else {
