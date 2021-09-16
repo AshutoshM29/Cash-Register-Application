@@ -110,5 +110,17 @@ td {
 }
 
 .with-love  {
-    font-size: x-large;
+    font-size: large;
+}
+
+.social-links {
+    padding-inline-start: 0px;
+}
+
+.list-item {
+    display: inline;
+}
+
+.social-img {
+    max-width: 40px;
 }
