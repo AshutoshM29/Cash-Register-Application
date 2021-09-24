@@ -18,14 +18,14 @@
 
     <div class="input-part">
         <label for="bill-amount">Bill Amount</label>
-        <input id="bill-amount" type="number" />
+        <input required min="1" id="bill-amount" type="number" oninput="validity.valid||(value='');" />
 
         <button id="next-button">Next</button>
     </div>
 
     <div class="input-part hidden" id="cash-given-part">
         <label for="cash-given">Cash Given</label>
-        <input id="cash-given" type="number" />
+        <input required min="1" id="cash-given" type="number" oninput="validity.valid||(value='');" />
 
         <button id="check-button">Check</button>
     </div>
