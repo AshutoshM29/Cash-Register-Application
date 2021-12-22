@@ -4,7 +4,7 @@ This is a cash register appliction which will take take input as bill amount and
 # Live Project
 https://return-cash.netlify.app/
 
-#Technologies Used : 
+# Technologies Used : 
 1. HTML
 2. CSS
 3. JS
